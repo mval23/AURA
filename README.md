@@ -4,7 +4,7 @@ AURA es un asistente universitario impulsado por inteligencia artificial y agent
 
 AURA se integra con herramientas reales como **Google Calendar** para centralizar la gestión de actividades y proporcionar un entorno intuitivo donde el estudiante pueda concentrarse en lo que realmente importa: **aprender sin colapsar**.
 
----
+
 
 ## 🌟 ¿Por qué AURA?
 
@@ -16,7 +16,7 @@ Los estudiantes universitarios frecuentemente enfrentan una combinación de:
 
 AURA nace como una solución ética, personalizada y proactiva, que combina la tecnología de los agentes inteligentes con un enfoque centrado en el bienestar del estudiante.
 
----
+
 
 ## 🧩 ¿Qué hace AURA?
 
@@ -28,7 +28,7 @@ AURA actúa como un sistema inteligente compuesto por agentes que colaboran para
 - **🧘 Apoyo al bienestar:** detecta señales de sobrecarga o desmotivación, proponiendo pausas activas o mensajes motivadores.
 - **💬 Interfaz conversacional:** permite al estudiante interactuar con AURA usando lenguaje natural para pedir ayuda, reorganizar su día o simplemente consultar su progreso.
 
----
+
 
 ## 🧠 Cómo funciona
 
@@ -39,7 +39,7 @@ AURA está diseñado bajo una arquitectura basada en **agentes inteligentes**, c
 - El **Agente de Bienestar** analiza el ritmo de trabajo y emite alertas si detecta posibles señales de agotamiento.
 - El **Agente Conversacional** actúa como la interfaz amigable entre el estudiante y AURA.
 
----
+
 
 ## 👀 Casos de uso
 
@@ -52,7 +52,7 @@ AURA está diseñado bajo una arquitectura basada en **agentes inteligentes**, c
 3. *"¿Qué me falta por hacer esta semana?"*  
    → AURA muestra el listado completo de tareas y su estado.
 
----
+
 
 ## ✨ Características destacadas
 
@@ -61,7 +61,7 @@ AURA está diseñado bajo una arquitectura basada en **agentes inteligentes**, c
 - ✔️ Modelo centrado en el bienestar, no en la hiperproductividad
 - ✔️ Tecnología abierta con licencia MIT
 
----
+
 
 ## ⚖️ Consideraciones éticas
 
@@ -71,7 +71,7 @@ Desde su concepción, AURA fue diseñado con principios éticos:
 - Promueve pausas, equilibrio y bienestar como parte esencial del proceso de aprendizaje
 - Todo el código es **open-source y transparente**
 
----
+
 
 ## 🚀 Estado del proyecto
 
@@ -79,18 +79,18 @@ Desde su concepción, AURA fue diseñado con principios éticos:
 🧪 MVP en construcción con módulos funcionales de planificación y visualización de tareas  
 📅 Próximo objetivo: integración directa con Google Calendar y flujo de recomendación
 
----
+
 
 ## 📄 Licencia
 
 Este proyecto está bajo la licencia [MIT](LICENSE).
 
----
+
 
 ## 💡 Créditos
 
 Proyecto desarrollado por estudiantes y desarrolladores de la Universidad Nacional de Colombia – Hackatón Deeppunk 2025.  
 Con mentorías de Deepunk y expertos en IA ética.
 
----
+
 
