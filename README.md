@@ -1,96 +1,109 @@
-# AURA – Asistente Universitario con Recomendaciones y Autonomía 🎓🤖
+# AURA – Asistente Universitario con Recomendaciones y Autonomía
 
-AURA es un asistente universitario impulsado por inteligencia artificial y agentes inteligentes que ayuda a los estudiantes a **planificar su tiempo**, **organizar sus tareas académicas**, y **mantener el equilibrio emocional** durante su vida universitaria. 
+**AURA** es un asistente inteligente diseñado para estudiantes universitarios. Su objetivo es ayudarlos a planificar sus tareas, acceder a recursos relevantes y cuidar su bienestar académico mediante el uso de agentes inteligentes.
 
-AURA se integra con herramientas reales como **Google Calendar** para centralizar la gestión de actividades y proporcionar un entorno intuitivo donde el estudiante pueda concentrarse en lo que realmente importa: **aprender sin colapsar**.
+---
 
+## 🎯 Objetivo
 
+Desarrollar un asistente basado en inteligencia artificial que organice, recomiende y acompañe al estudiante en su vida académica, combinando tecnología, empatía y adaptabilidad.
 
-## 🌟 ¿Por qué AURA?
+---
 
-Los estudiantes universitarios frecuentemente enfrentan una combinación de:
-- Sobrecarga académica 📚
-- Desorganización ⏰
-- Dificultad para priorizar tareas ❗
-- Estrés acumulado o falta de motivación 🧠💤
+## 🚨 Problema
 
-AURA nace como una solución ética, personalizada y proactiva, que combina la tecnología de los agentes inteligentes con un enfoque centrado en el bienestar del estudiante.
+Los estudiantes enfrentan una carga académica creciente, dificultades para encontrar recursos adecuados y escasa conciencia de su bienestar. AURA busca resolver estos problemas mediante:
 
+- Planificación automatizada de tareas y estudios
+- Recomendaciones personalizadas de materiales de aprendizaje
+- Sugerencias para cuidar la salud mental y física del estudiante
 
+---
 
-## 🧩 ¿Qué hace AURA?
+## 🧩 Arquitectura basada en agentes inteligentes
 
-AURA actúa como un sistema inteligente compuesto por agentes que colaboran para brindarle al usuario una experiencia completa:
+AURA está compuesto por los siguientes módulos:
 
-- **🧠 Planificación inteligente:** organiza tareas, actividades y tiempos de estudio en función de las prioridades, fechas límite y carga actual del usuario.
-- **📅 Integración con Google Calendar:** sincroniza eventos y permite agendar actividades académicas directamente desde la app.
-- **🎯 Recomendaciones personalizadas:** sugiere recursos de estudio adaptados al estilo de aprendizaje, tema y nivel de dificultad.
-- **🧘 Apoyo al bienestar:** detecta señales de sobrecarga o desmotivación, proponiendo pausas activas o mensajes motivadores.
-- **💬 Interfaz conversacional:** permite al estudiante interactuar con AURA usando lenguaje natural para pedir ayuda, reorganizar su día o simplemente consultar su progreso.
+| Agente         | Rol |
+|----------------|-----|
+| 🧠 **Planificador** | Organiza tareas y sesiones de estudio según tiempo, prioridad y deadlines |
+| 📚 **Recomendador** | Sugiere recursos educativos según tema, estilo de aprendizaje y tiempo disponible |
+| 🧘 **Bienestar** | Monitorea sobrecarga y propone descansos o pausas activas |
+| 💬 **Chatbot** | Permite interacción natural con el estudiante, traduciendo mensajes a acciones |
 
+---
 
+## 🖥️ Interfaz gráfica
 
-## 🧠 Cómo funciona
+La interfaz está compuesta por tres vistas:
 
-AURA está diseñado bajo una arquitectura basada en **agentes inteligentes**, cada uno con una responsabilidad específica. Estos agentes se comunican entre sí a través de un módulo central que gestiona el contexto y las decisiones:
+1. **📆 Calendario**: muestra sesiones de estudio, entregas, descansos y otros eventos.
+2. **🗂️ Lista de Tareas**: tabla editable con actividades académicas, fechas límite, prioridad y estado.
+3. **💬 Chat AURA**: entrada conversacional donde el estudiante puede dar órdenes como “agrega descanso mañana” o “qué tengo pendiente”.
 
-- El **Agente Planificador** se encarga de construir un plan semanal razonable.
-- El **Agente Recomendador** sugiere recursos útiles según las materias y las necesidades del estudiante.
-- El **Agente de Bienestar** analiza el ritmo de trabajo y emite alertas si detecta posibles señales de agotamiento.
-- El **Agente Conversacional** actúa como la interfaz amigable entre el estudiante y AURA.
+---
 
+## ⚙️ Tecnologías utilizadas
 
+- **Python**
+- **Streamlit** para la interfaz
+- **Pandas / SQLite** para almacenamiento local de tareas y eventos
+- **spaCy / NLTK** para procesamiento de lenguaje natural
+- **Scikit-learn** para lógica de recomendación y bienestar
+- **Licencia MIT**
 
-## 👀 Casos de uso
+---
 
-1. *"Tengo un parcial el martes y dos tareas para el viernes"*  
-   → AURA organiza el cronograma de estudio y recomienda recursos clave.
+## 💬 Ejemplos de uso
 
-2. *"Estoy agotado, no quiero seguir hoy"*  
-   → AURA responde con una pausa activa sugerida y reprograma el día de forma compasiva.
+> 🗣️ “Tengo parcial de cálculo el jueves”  
+✔️ AURA asigna sesiones de estudio martes y miércoles, con pausas sugeridas.
 
-3. *"¿Qué me falta por hacer esta semana?"*  
-   → AURA muestra el listado completo de tareas y su estado.
+> 🗣️ “Estoy cansado”  
+✔️ El agente de bienestar propone una pausa activa de 10 minutos y motiva con un mensaje amable.
 
+> 🗣️ “Recomiéndame algo fácil para álgebra lineal”  
+✔️ El recomendador sugiere dos videos y un PDF con resúmenes.
 
+---
 
-## ✨ Características destacadas
+## 🔐 Consideraciones éticas
 
-- ✔️ Interfaz intuitiva y visual con acceso directo al calendario
-- ✔️ Flujo de trabajo personalizado y flexible
-- ✔️ Modelo centrado en el bienestar, no en la hiperproductividad
-- ✔️ Tecnología abierta con licencia MIT
+- No se almacenan datos sensibles
+- Todo el código es open source con licencia MIT
+- Se explican las recomendaciones
+- Se detectan señales de sobrecarga emocional con responsabilidad
 
+---
 
+## 📦 Estado del proyecto
 
-## ⚖️ Consideraciones éticas
+| Componente           | Estado     |
+|----------------------|------------|
+| Calendario visual    | 🟡 En desarrollo |
+| Lista de tareas      | ✅ Funcional básica |
+| Chatbot              | 🟡 En pruebas |
+| Lógica planificador  | 🟡 Prototipo |
+| Recomendaciones      | 🟡 Base inicial |
+| Bienestar            | 🔲 Por implementar |
 
-Desde su concepción, AURA fue diseñado con principios éticos:
-- No almacena datos sensibles sin consentimiento explícito
-- Busca apoyar emocionalmente sin reemplazar profesionales de salud mental
-- Promueve pausas, equilibrio y bienestar como parte esencial del proceso de aprendizaje
-- Todo el código es **open-source y transparente**
+---
 
+## 🧪 Cómo contribuir
 
+1. Haz fork del repositorio
+2. Crea una rama `feature/nombre`
+3. Haz tus cambios y prueba localmente
+4. Haz un pull request explicando claramente tu contribución
 
-## 🚀 Estado del proyecto
+---
 
-🔧 En desarrollo como parte de la **Hackatón Deeppunk 2025**  
-🧪 MVP en construcción con módulos funcionales de planificación y visualización de tareas  
-📅 Próximo objetivo: integración directa con Google Calendar y flujo de recomendación
+## 👨‍🔬 Créditos
 
+Este proyecto es desarrollado por estudiantes de la Universidad Nacional de Colombia – Sede Medellín como parte de la **Hackatón Deeppunk 2025**.
 
+---
 
-## 📄 Licencia
+## 📝 Licencia
 
-Este proyecto está bajo la licencia [MIT](LICENSE).
-
-
-
-## 💡 Créditos
-
-Proyecto desarrollado por estudiantes y desarrolladores de la Universidad Nacional de Colombia – Hackatón Deeppunk 2025.  
-Con mentorías de Deepunk y expertos en IA ética.
-
-
-
+Este proyecto está licenciado bajo la **Licencia MIT**. Puedes usarlo, modificarlo y distribuirlo libremente.
