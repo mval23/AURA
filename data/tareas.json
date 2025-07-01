@@ -1,0 +1,17 @@
+[
+  {
+    "titulo": "Estudiar Álgebra",
+    "completado": true,
+    "fecha": "2025-07-05"
+  },
+  {
+    "titulo": "Ensayo Filosofía",
+    "completado": false,
+    "fecha": "2025-07-04"
+  },
+  {
+    "titulo": "Tarea estudiar física para el jueves",
+    "completado": false,
+    "fecha": null
+  }
+]

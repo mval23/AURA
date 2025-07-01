@@ -1,0 +1,22 @@
+[
+  {
+    "titulo": "Álgebra básica",
+    "tipo": "video",
+    "enlace": "https://www.youtube.com/watch?v=algebra_basica"
+  },
+  {
+    "titulo": "Derivadas y límites",
+    "tipo": "pdf",
+    "enlace": "https://recursos.uni.edu/derivadas.pdf"
+  },
+  {
+    "titulo": "Historia de Colombia",
+    "tipo": "articulo",
+    "enlace": "https://historia.co/articulo_colombia"
+  },
+  {
+    "titulo": "Programación en Python",
+    "tipo": "video",
+    "enlace": "https://www.youtube.com/watch?v=python_intro"
+  }
+]
